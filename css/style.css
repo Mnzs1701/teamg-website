@@ -1,0 +1,141 @@
+body {
+margin: 0;
+}
+
+svg {
+width: 100%;
+height: auto;
+}
+
+.section {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+#sec-1 {
+/* background-color: #eeff80; */
+/* background-color: #3c4142; */
+background-color: #000000;
+
+}
+
+.down-50 {
+transform: translateY(50px);
+}
+
+.down-100 {
+transform: translateY(100px);
+}
+
+.down-150 {
+transform: translateY(150px);
+}
+
+#frame {
+/* Safari */
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#esc {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#bot-spacer {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#motor {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#fc {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+.up-50 {
+transform: translateY(-50px);
+}
+
+.up-75 {
+transform: translateY(-75px);
+}
+
+.up-100 {
+transform: translateY(-100px);
+}
+
+.up-150 {
+transform: translateY(-150px);
+}
+
+.up-200 {
+transform: translateY(-200px);
+}
+
+#nut {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#prop {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#top-spacer {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#xt60 {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#wire {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#fpv {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#gopro {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#vtx {
+-webkit-transition: -webkit-transform 1s;
+transition: transform 1s;
+}
+
+#btn {
+width: 200px;
+height: 50px;
+font-size: 20px;
+background: #0080FB; 
+/* #eeff80; */
+border: 1px solid #ff0000;
+transition: 1s;
+position: fixed;
+top: 85%;
+letter-spacing: 2px;
+}
+
+#btn:hover {
+background: #ff0000;
+color: #eeff80;
+cursor: pointer;
+letter-spacing: 5px;
+}
